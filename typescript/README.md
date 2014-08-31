@@ -1,4 +1,4 @@
-CoffeeScript
+TypeScript
 -----------------
 
 # Files:
