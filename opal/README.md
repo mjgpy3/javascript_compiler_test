@@ -6,3 +6,4 @@ Opal
  - compiler.rb - compiles "fizzbuzz.rb" and creates "opal.js"
  - opal.js - Opal libraries
  - compiled.js - "fizzbuzz.rb" compiled to JavaScript
+ - test.html - tests the compiled JS
