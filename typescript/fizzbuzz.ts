@@ -16,13 +16,12 @@ function fizzbuzz(number : number) {
     return result;
 }
 
-var result = "";
-
-for (var i = 1; i <= 100; i += 1) {
-    result += fizzbuzz(i);
-    if (i !== 100) {
-        result += "<br />";
+var result = (function () {
+    var _i = 1, _r = [];
+    for (; _i <= 100; _i += 1) {
+        _r.push(fizzbuzz(_i));
     }
-}
+    return _r;
+}()).join("<br />");
 
 document.write(result);
