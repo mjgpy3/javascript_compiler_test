@@ -7,4 +7,4 @@ CoffeeScript
  - test.html - tests the compiled JS
 
 # To build
- - ./compiler.rb
+ - coffee --compile fizzbuzz.coffee
